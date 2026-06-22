@@ -20,3 +20,11 @@ npm install ph-sss
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ph-sss';
+// See API section for available functions
+```
