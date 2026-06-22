@@ -1,6 +1,10 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * formatSSS
+ * @param num
+ */
 export function formatSSS(num: string): string {
   const cleaned = num.replace(/[^0-9]/g, "");
   if (cleaned.length !== 10) throw new Error("SSS must be 10 digits");
